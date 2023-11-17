@@ -178,7 +178,7 @@ def extract_swell_dataset(overlap_pct, window_size_sec, data_save_path, save):
         if counter == 0:
             labels = participant_labellings
         else:
-            labels = labels.append(participant_labellings, ignore_index = True, sort=False)
+            labels = labels._append(participant_labellings, ignore_index = True, sort=False) # Note: Dataframes.append is deprecated. Using internal _append as temporary measure. Please fix!!!
         counter = counter + 1;
     swell_labels = labels.drop_duplicates(subset = ['PP','Blok'], keep = 'last')
     swell_labels = swell_labels.reset_index(drop = True)
