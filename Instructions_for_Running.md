@@ -2,8 +2,8 @@
 
 To run and restore the project, please follow the steps below:
 
-1. Download all Jupyter Notebook and Python files used in the project from the project's GitHub repository: [Emotion Recognition from ECG](https://github.com/CEitanC/Emotion_Recognition_from_ECG_Eitan_Cohen).
- Alternatively, you can run the command in the  terminal: `git clone https://github.com/CEitanC/Emotion_Recognition_from_ECG_Eitan_C`
+1. Download all Jupyter Notebook and Python files used in the project from the project's GitHub repository: [Emotion Recognition from ECG](https://github.com/noyhono/Emotion_Recognition_from_ECG).
+ Alternatively, you can run the command in the  terminal: `git clone https://github.com/noyhono/Emotion_Recognition_from_ECG`
 2. To recover the project as it was done, follow the instructions in each directory's README file, pay attention to any additional dependencies, and use the provided create_folders.sh script for ensuring a valid working area. To ensure the create_folders.sh script is executable, use the `chmod +x create_folders.sh` command before executing it.
 3. Use the CSV files located in the `pre_processing_and_recover_network` directory inside the `csv_files` directory. Alternatively, you can create them yourself by following these steps:
    - Download the raw data from the following link: [Raw Data](https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/dans-x55-69zp).
