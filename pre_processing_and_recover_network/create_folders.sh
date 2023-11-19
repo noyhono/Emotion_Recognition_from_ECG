@@ -7,6 +7,8 @@ mkdir output
 mkdir models
 mkdir output/STR_result
 mkdir output/ER
+mkdir output/STR_loss
+
 
 # Print success message
 echo "Folders created successfully!"
